@@ -1,4 +1,4 @@
-require "pry"
+
 
 class Dog
     # attr_reader :name
@@ -11,5 +11,5 @@ class Dog
         @name = name
         @breed = breed
     end
-binding.pry
+
 end
