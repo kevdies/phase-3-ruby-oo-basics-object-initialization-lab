@@ -1,11 +1,15 @@
+require "pry"
+
 class Dog
     # attr_reader :name
-    # attr_reader :breed
-    # do we not need to use these?  maybe because 2 args?
+    # attr_writer :name
+# reader writer gives us ability to read or rewrite the attributes after init
+
+
 
     def initialize(name, breed = "Mutt")
         @name = name
         @breed = breed
     end
-
+binding.pry
 end
